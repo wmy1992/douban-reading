@@ -1,0 +1,22 @@
+/* pages/book-list/book-list.wxss */
+.container{
+  padding:10rpx 30rpx;
+}
+
+.search-wrap{
+  width:100%;
+  box-sizing:border-box;
+  margin-bottom:30rpx;
+  
+}
+.input-search{
+  border-bottom:1rpx solid #d8d8d8;
+}
+
+.book-list{
+  height:100%;
+  /* padding:10rpx 30rpx; */
+  /* background:#f00; */
+}
+
+

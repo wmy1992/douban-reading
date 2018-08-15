@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "book-item-comp":"../components/book-item-comp/book-item"
+  }
+
+}

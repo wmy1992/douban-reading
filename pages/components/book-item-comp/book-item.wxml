@@ -1,0 +1,16 @@
+<!--pages/components/book-item/book-item.wxml-->
+<navigator class="book-wrap" url="/pages/book-detail/book-detail?id={{bookInfo.id}}">
+
+  <image class="img-book" src="{{bookInfo.image}}"></image>
+      <view class="v-detail">
+        <view class="v-title">{{bookInfo.title}}</view>
+        <text class="tt-more">{{bookInfo.author[0]}}/{{bookInfo.translator[0]}}/{{bookInfo.publisher}}</text> 
+      </view>
+      
+
+      <!-- <image class="img-book" src="https://img1.doubanio.com/view/subject/m/public/s1237549.jpg"></image>
+      <view class="v-detail">
+        <view class="v-title">小王子</view>
+        <text class="tt-more">[法] 圣埃克苏佩里/马振聘/人民出版社</text> -->
+      <!-- </view> -->
+</navigator>

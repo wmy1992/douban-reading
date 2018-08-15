@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/book-list/book-list",
+    "pages/search/search",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/book-detail/book-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "豆瓣读书",
+    "navigationBarTextStyle": "black"
+  }
+}

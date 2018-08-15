@@ -1,0 +1,6 @@
+<!--pages/search/search.wxml-->
+<view class="container">
+  <view class="search-container">
+    <input placeholder="请输入搜索内容" auto-focus type="text" confirm-type="search" max-length="100" bindconfirm="searchBooks" value='{{searchContent}}'/>
+  </view>
+</view>

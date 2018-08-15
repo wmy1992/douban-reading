@@ -1,0 +1,30 @@
+function login(){
+  return new Promise((resolve,reject)=>{
+    wx.login({success:resolve,fail:reject});
+  })
+}
+
+function getUserInfo(){
+  return new Promise((resolve,reject)=>{
+    wx.getUserInfo({
+      success:resolve,fail:reject
+    })
+  })
+}
+
+function request({url,method='GET',data}){
+  return new Promise((resolve,reject)=>{
+    wx.request({
+      url:url,
+      data:data,
+      method:method,
+      header:{'Content-Type':'json'},
+      success:resolve,
+      fail:reject
+    })
+  })
+}
+
+module.exports={
+  login,getUserInfo,request,
+}

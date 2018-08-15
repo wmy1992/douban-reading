@@ -1,0 +1,28 @@
+/* pages/components/book-item/book-item.wxss */
+
+.book-wrap{
+  display:flex;
+  flex-wrap:wrap;
+  position:relative;
+  margin-bottom:20rpx;
+}
+
+.img-book{
+  width:200rpx;
+  max-height:300rpx;
+  margin-right:30rpx;
+}
+
+.v-detail{
+  flex:1;
+}
+
+.v-title{
+  color:#668899;
+  margin-bottom:20rpx;
+}
+
+.tt-more{
+  color:#d8d8d8;
+  font-size:32rpx;
+}

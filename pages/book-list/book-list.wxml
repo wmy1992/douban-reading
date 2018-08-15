@@ -1,0 +1,13 @@
+<!--pages/book-list/book-list.wxml-->
+<view class="container">
+  <view class="search-wrap">
+    <input placeholder="请输入搜索内容" auto-focus type="text" confirm-type="search" max-length="100" bindconfirm="searchBooks" value='{{searchContent}}' class="input-search" />
+  </view>
+
+  <view class="book-list">
+    <book-item-comp  wx:for="{{books}}" wx:key="id" book-info="{{item}}" class="v-book-item">
+      
+      
+    </book-item-comp>
+  </view>
+</view>
